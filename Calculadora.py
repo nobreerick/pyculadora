@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+'''Calculadora python com interface.'''
 
 
 class Tela_Principal:
@@ -404,7 +405,6 @@ class Operacoes:
         return resultado
 
 
-Tela = Tela_Principal()  # Execucao
-Tela.Executar_Tela()
-
-#teste para o git
+if __name__ == '__main__':
+    Tela = Tela_Principal()  
+    Tela.Executar_Tela()
